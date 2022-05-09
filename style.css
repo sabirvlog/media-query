@@ -8,8 +8,7 @@ body{
 	background-color: bisque;
 }
 .main{
-	display: flex;
-	
+	display: flex;	
 }
 .logo{
 	position: absolute;
@@ -94,4 +93,37 @@ body{
     bottom: 0;
     left: 0;
     padding: 10px;
+}
+
+@media only screen and (max-width: 1000px)
+{
+	.para {
+    background-color: cyan;
+    position: relative;
+    top: 100px;
+    left: 10px;
+    text-align: center;
+    width: 60vw;
+    height: 100vh;
+    padding: 15px;
+    overflow: hidden;
+}
+	.nav ul {
+		display: block;
+		flex-wrap: wrap;
+		margin-top: 250px;
+		margin-left: 100px;
+	}
+	 .nav ul li {
+	 	font-size: 15px; 
+		padding: 15px 10px;
+	 }	
+	 .nav ul li a{
+	color: black;
+	text-transform: uppercase;
+	margin-right: 20px;
+	padding: 4px 5px;
+	border: 1px solid grey;
+	border-radius: 10px;
+ }
 }
