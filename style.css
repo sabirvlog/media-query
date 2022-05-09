@@ -1,0 +1,97 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+body{
+	background-color: bisque;
+}
+.main{
+	display: flex;
+	
+}
+.logo{
+	position: absolute;
+    top: 30px;
+    left: 100px;
+	font-size: 35px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-family: cursive;
+    color: orangered;
+    justify-content: center;
+    align-items: center;
+}
+.logo:hover{
+	cursor: pointer;
+	font-size: 40px;
+	transform: skew(45deg);
+}
+.nav{
+	
+    position: absolute;
+    left: 500px;
+    top: 35px;
+}
+.nav ul{
+	display: flex;
+
+}
+.nav ul li{
+	list-style: none;
+	font-size: 20px; 
+	padding: 10px 16px;
+
+} 
+.nav ul li a{
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+	margin-right: 40px;
+	padding: 8px 10px;
+	border: 2px solid grey;
+	border-radius: 20px;
+	background-color: yellow;
+	transition: 0.8s ease;
+}
+#active, .nav ul li a:hover{
+	cursor: pointer;
+	color: orangered;
+	background-color: white;
+}
+.para{
+	background-color: cyan;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    text-align: center;
+    width: 90vw;
+    height: 80vh;
+    padding: 35px;
+    overflow: hidden;
+}
+.para h1{
+	background-color: aliceblue;
+	padding: 25px;
+	font-size: 55px;
+	font-weight: bolder;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+.para p{
+	background-color: black;
+	padding: 25px;
+    font-size: 18px;
+    line-height: 40px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    text-align: justify;
+    color: fuchsia;
+}
+.para mark{
+	position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+}
